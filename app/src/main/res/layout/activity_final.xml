@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/subj"
+    android:screenOrientation="portrait"
+    tools:context=".Final">
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9601906684931747/4952156506">
+    </com.google.android.gms.ads.AdView>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        >
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:id="@+id/ll1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:backgroundTint="#CD113B"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:text="Loading.."/>
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:backgroundTint="#FF7600"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:text="Loading.." />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="160dp"
+                android:backgroundTint="#FFA900"
+                android:textColor="@color/white"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="Loading.." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_toStartOf="@+id/ll1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CD113B"
+                android:text="Loading.."
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF7600"
+                android:text="Loading.."
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFA900"
+                android:text="Loading.."
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:text="TextView" />
+
+
+</RelativeLayout>

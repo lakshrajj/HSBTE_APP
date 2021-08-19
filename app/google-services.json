@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441702956902",
+    "firebase_url": "https://hsbte-question-default-rtdb.firebaseio.com",
+    "project_id": "hsbte-question",
+    "storage_bucket": "hsbte-question.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441702956902:android:c04c2ff502b9d105f192a7",
+        "android_client_info": {
+          "package_name": "com.lrs.hsbte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441702956902-5rdo6t0rmeo2f2csga1j245uu5qktacd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlaXEkagx1c4wDjVHhB0GdJ1wF3V2Iczk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441702956902-5rdo6t0rmeo2f2csga1j245uu5qktacd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

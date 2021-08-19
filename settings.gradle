@@ -1,0 +1,3 @@
+rootProject.name = "Hsbte"
+include ':app'
+include ':sample'
